@@ -19,7 +19,7 @@ import sys
 from itertools import cycle
 
 import numpy as np
-from PIL import Image, ImageFont, ImageDraw, ImageColor
+from pillow import Image, ImageFont, ImageDraw, ImageColor
 
 import layoutparser
 from .elements import (
